@@ -6,7 +6,7 @@ app = FastAPI(title="Hello World")
 
 @app.get("/")
 def main():
-    return {"message": "Hello World latest code"}
+    return {"message": "Hello World latest code version2"}
 
 
 @app.get("/health")
